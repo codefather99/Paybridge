@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/paybridge_test
+    hikari:
+      maximum-pool-size: 10
+paybridge:
+  rate-limit:
+    enabled: false
+  transfers:
+    provider-grace: 0s
+    reconcile-enabled: false
+    reconcile-min-age: 0s
