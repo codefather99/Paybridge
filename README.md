@@ -322,7 +322,7 @@ Three things can settle a `PROCESSING` transfer: the original response, a **sign
 
 ### Prerequisites
 
-- Java 21 or later (the exact version is set by `java.version` in `pom.xml`)
+- Java 25 or later (the exact version is set by `java.version` in `pom.xml`)
 - Maven
 - Docker Desktop
 - A free [Paystack](https://paystack.com) account, in **Test mode**, for the test secret key (`sk_test_...`)
